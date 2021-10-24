@@ -1,0 +1,119 @@
+.App{
+    width: 50vw;
+    height:100vh;
+}
+body{ 
+    margin:0;
+    padding:0;
+}
+.topbar{
+    width: 600%;
+    height: 60px;
+    background-color:rgb(204, 201, 201);
+    position: sticky;
+    top: 10;
+    z-index: 999;
+    margin-top: 100px;
+}
+
+.topbarWrapper{
+    height: 20%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-weight:bold;
+    font-size: 30px;
+    color: red;
+    font-style: bold;
+
+}
+.logo2{
+    font-weight: normal;
+    padding: 20px ;
+    font-style: italic;
+    color: rgb(12, 11, 11);
+}
+
+.topavatar{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    justify-content: right;
+}
+.topLeft{
+    size: 60px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.Navbar {
+    background-color:red;
+    width: 200%;
+    height: 80px;
+    justify-content: center;
+    font-family:Arial;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+    justify-content: space-evenly;
+	margin-top: 0px;
+     padding-left:30px;
+    padding-right:30px;   
+}
+ul.nav{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    list-style:none;
+    display:inline-block;
+    background-color:#62564A;
+    text-align:center;
+    font-family: sans-serif; 
+}
+.Navbar .links {
+    max-height: 80px;
+    color:white;
+    cursor: pointer;
+    display:inline-block;
+    width: 33%;
+}
+.Navbar a {
+    text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color:white;
+    width: 200px;
+    text-align:center;
+    display:inline-block;
+    padding-bottom:13px;
+    padding-top:12px;
+
+    
+}
+.Navbar a :hover {
+	text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #000;
+}
+
+.Header{
+    color:black;
+    font-family:Arial;
+    justify-content: center;
+}

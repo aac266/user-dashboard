@@ -1,3 +1,37 @@
-h2{
-    color:blue;
+button {
+    position: static;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: baseline;
+    cursor: default;
+    background-color: red;
+    box-sizing:content-box;
+    margin: 50px;
+    font: 400 11px system-ui;
+    color: white;
+    padding: 1x 7px 2px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+    text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color:white;
+    width: 200px;
+    text-align:center;
+    display:inline-block;
+    padding-bottom:13px;
+    padding-top:20px;
 }

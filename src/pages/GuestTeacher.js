@@ -1,45 +1,16 @@
 import React from "react";
 import './GuestTeacher.css'
 
-/**
- * Component to handle file upload. Works for image
- * uploads, but can be edited to work for any file.
- */
-function FileUpload() {
-  // State to store uploaded file
-  const [file, setFile] = React.useState("");
-
-  // Handles file upload event and updates state
-  function handleUpload(event) {
-    setFile(event.target.files[0]);
-
-    // Add code here to upload file to server
-    // ...
-  }
-<div>
-	<h1>Welcome </h1>
-	</div>
+export default function GuestTeacher() {
   return (
-    <div id="upload-box">
-		<h1>Welcome Guest Teacher</h1>
-		<h2>Please upload notes for the Teacher</h2>
-
-      <input type="file" onChange={handleUpload} />
-      <p>Filename: {file.name}</p>
-      {file && <ImageThumb image={file} />}
+    <div>
+<div>
+  
+  <button><a href="/Documents">View Lesson Plan</a></button>
+  <button> <a href="/Documents">View Seating Chart</a></button>
+  <button> <a href="/Documents">Leave notes</a></button>
+  <button> <a href="/Feedback">Provide Feedback</a></button>
+  </div>
     </div>
-  );
+  )
 }
-
-/**
- * Component to display thumbnail of image.
- */
-const ImageThumb = ({ image }) => {
-  return <img src={URL.createObjectURL(image)} alt={image.name} />;
-};
-
-
-export default function App() {
-  return <FileUpload />;
-}
-

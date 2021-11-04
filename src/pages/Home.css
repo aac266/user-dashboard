@@ -1,4 +1,7 @@
 h1{
-    padding-inline-start:  30px; 
-    position: inherit;
+    padding-right:  100px;
+    margin-top: 600px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }

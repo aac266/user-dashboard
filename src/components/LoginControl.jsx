@@ -7,9 +7,9 @@ class LoginControl extends React.Component {
     super(props);
     this.state = {
       users: [
-        { username: "johndoe", password: "blogger" },
-        { username: "acalderaro", password: "codes" },
-        { username: "jsims", password: "gulsen" }
+        { username: "aac2008@gmail.com", password: "blogger" },
+        { username: "johndoe9@gmail.com", password: "codes" },
+        { username: "SallySmith15@gmial.com", password: "tester" }
       ],
       welcomeConnect: false,
       trueUsername: "",
@@ -51,7 +51,9 @@ class LoginControl extends React.Component {
       <div>
         {this.state.welcomeConnect ? (
           <Welcome uName={this.state.trueUsername} />
-        ) : this.state.isSign ? ( : (
+        ) : this.state.isSign ? (
+          <Signup dataState={this.state} isClick={this.state.welcomeConnect} />
+        ) : (
           <div className="main_box--main--login">
             <input
               type="text"
@@ -68,7 +70,7 @@ class LoginControl extends React.Component {
               placeholder="password"
             />
             <button className="btn btn-success" onClick={this.Control}>
-              LOGIN
+              Submit
             </button>
             <p
               onClick={this.SignUp}
@@ -79,7 +81,6 @@ class LoginControl extends React.Component {
                 cursor: "pointer"
               }}
             >
-              Sign Up
             </p>
           </div>
         )}

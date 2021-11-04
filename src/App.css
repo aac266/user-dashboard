@@ -9,7 +9,7 @@ body{
 .topbar{
     width: 600%;
     height: 60px;
-    background-color:rgb(204, 201, 201);
+    background-color:sandybrown;
     position: sticky;
     top: 10;
     z-index: 999;
@@ -24,7 +24,8 @@ body{
     justify-content: space-around;
 }
 .logo{
-    font-weight:bold;
+    font-family:fantasy;
+    font-weight:normal;
     font-size: 30px;
     color: red;
     font-style: bold;
@@ -33,6 +34,7 @@ body{
 .logo2{
     font-weight: normal;
     padding: 20px ;
+    font-family: Arial;
     font-style: italic;
     color: rgb(12, 11, 11);
 }
@@ -54,15 +56,15 @@ button:hover{
 .Navbar {
     background-color:red;
     width: 200%;
-    height: 80px;
+    height:60px;
     justify-content: center;
     font-family:Arial;
 	margin: 0;
 	padding: 0;
 	text-align:center;
-    justify-content: space-evenly;
+    justify-content:flex-end;
 	margin-top: 0px;
-     padding-left:30px;
+    padding-left:30px;
     padding-right:30px;   
 }
 ul.nav{
@@ -84,7 +86,7 @@ ul.nav{
 }
 .Navbar a {
     text-decoration: none;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Arial;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: normal;
@@ -102,7 +104,7 @@ ul.nav{
 }
 .Navbar a :hover {
 	text-decoration: none;
-	font-family: Cambria, serif;
+	font-family: Arial;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: normal;
